@@ -14,7 +14,7 @@
         "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Microsoft\\Xamarin\\NuGet\\",
+          "E:\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [

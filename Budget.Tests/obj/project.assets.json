@@ -25,6 +25,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Budget.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Budget.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Budget.Core.dll": {}
+        }
+      },
+      "Budget.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Budget.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Budget.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Budget.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -171,16 +194,28 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Budget.Core/1.0.0": {
+      "type": "project",
+      "path": "../Budget.Core/Budget.Core.csproj",
+      "msbuildProject": "../Budget.Core/Budget.Core.csproj"
+    },
+    "Budget.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Budget.Infrastructure/Budget.Infrastructure.csproj",
+      "msbuildProject": "../Budget.Infrastructure/Budget.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Budget.Core >= 1.0.0",
+      "Budget.Infrastructure >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
     "C:\\Users\\Kuba\\.nuget\\packages\\": {},
-    "E:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "E:\\Microsoft\\Xamarin\\NuGet": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -193,7 +228,7 @@
       "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Microsoft\\Xamarin\\NuGet\\",
+        "E:\\Microsoft\\Xamarin\\NuGet",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
@@ -210,7 +245,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
+              "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj"
+            },
+            "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

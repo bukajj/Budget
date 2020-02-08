@@ -180,7 +180,7 @@
   },
   "packageFolders": {
     "C:\\Users\\Kuba\\.nuget\\packages\\": {},
-    "E:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "E:\\Microsoft\\Xamarin\\NuGet": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -193,7 +193,7 @@
       "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Tests.EndToEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Microsoft\\Xamarin\\NuGet\\",
+        "E:\\Microsoft\\Xamarin\\NuGet",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
