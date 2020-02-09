@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Text.RegularExpressions;
 
 namespace Budget.Core.Domain
 {
@@ -8,6 +10,7 @@ namespace Budget.Core.Domain
     {
         private ISet<CurrentAccount> _currentAccounts = new HashSet<CurrentAccount>();
         
+
         public Guid Id { get; protected set; }
         public string Email { get; protected set; }
         public string Password { get; protected set; }
@@ -28,8 +31,8 @@ namespace Budget.Core.Domain
         public User(Guid id, string email, string password, string salt, string firstname, string lastname)
         {
             Id = id;
-            Email = email;
-            Password = password;
+            SetEmail(email);
+            SetPassword(password);
             Salt = salt;
             Firstname = firstname;
             Lastname = lastname;            
@@ -39,7 +42,53 @@ namespace Budget.Core.Domain
 
         public void SetEmail(string email)
         {
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                return;
+            }
             
+            var isValid = new EmailAddressAttribute().IsValid(email);
+            if (!isValid)
+            {
+                return;
+            }
+
+            if (Email == email)
+            {
+                return;
+            }
+
+            Email = email.ToLowerInvariant();
+            UpdatedAt = DateTime.UtcNow;
         }
+
+        public void SetPassword(string password)
+        {
+            if (string.IsNullOrWhiteSpace(password))
+            {
+                return;
+            }
+
+            var isValid = !password.Contains(" ");
+            if (!isValid)
+            {
+                return;
+            }
+
+            if (Password == password)
+            {
+                return;
+            }
+
+            if (password.Length < 8 || password.Length > 50)
+            {
+                throw new Exception("Password should contain more than 8 and less than 50 charcters.");
+            }
+
+            Password = password;
+            UpdatedAt = DateTime.UtcNow;
+        }
+        
+        
     }
 }
