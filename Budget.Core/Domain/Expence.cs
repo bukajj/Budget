@@ -2,7 +2,7 @@
 
 namespace Budget.Core.Domain
 {
-    public class Transaction : ITransaction
+    public class Expence : ITransaction
     {
         public Guid Id { get; protected set; }
         public string Name { get; protected set; }
@@ -11,13 +11,11 @@ namespace Budget.Core.Domain
         public DateTime CreatedAt { get; protected set; }
         public DateTime TransactionDateTime { get; protected set; }
         public Guid TypeId { get; protected set; }
-        public bool IsPlanned { get; protected set; }
-        public bool IsIncome { get; protected set; }
+        
+        protected Expence(){}
 
-        protected Transaction(){}
-
-        public Transaction(Guid id, string name, string description, decimal bill, DateTime transactionDateTime,
-                        Guid typeId, bool isPlanned, bool isIncome)
+        public Expence(Guid id, string name, string description, decimal bill, DateTime transactionDateTime,
+            Guid typeId)
         {
             Id = id;
             Name = name;
@@ -26,8 +24,6 @@ namespace Budget.Core.Domain
             TransactionDateTime = transactionDateTime;
             CreatedAt = DateTime.UtcNow;
             TypeId = typeId;
-            IsPlanned = isPlanned;
-            IsIncome = isIncome;
         }
     }
 }

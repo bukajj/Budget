@@ -31,10 +31,14 @@
         <e p="Budget.Core.csproj" t="IncludeRecursive" />
         <e p="Domain" t="Include">
           <e p="CurrentAccount.cs" t="Include" />
+          <e p="Expence.cs" t="Include" />
+          <e p="Income.cs" t="Include" />
+          <e p="IncomeType.cs" t="Include" />
+          <e p="IPlannedTransaction.cs" t="Include" />
           <e p="ITransaction.cs" t="Include" />
           <e p="ITransactionType.cs" t="Include" />
-          <e p="Transaction.cs" t="Include" />
-          <e p="TransactionType.cs" t="Include" />
+          <e p="PlannedExpence.cs" t="Include" />
+          <e p="PlannedIncome.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">

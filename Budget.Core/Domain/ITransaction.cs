@@ -11,7 +11,5 @@ namespace Budget.Core.Domain
         DateTime CreatedAt { get; }
         DateTime TransactionDateTime { get; }
         Guid TypeId { get; }
-        bool IsPlanned { get; }
-        bool IsIncome { get; }
     }
 }

@@ -8,7 +8,10 @@ namespace Budget.Core.Domain
     {
         public Guid Id { get; protected set; }
         public Decimal Balance { get; protected set; }
-        public IEnumerable<Transaction> Transactions { get; protected set; }
+        public IEnumerable<Income> Incomes { get; protected set; }
+        public IEnumerable<Expence> Expences { get; protected set; }
+        public IEnumerable<PlannedIncome> PlannedIncomes { get; protected set; }
+        public IEnumerable<PlannedExpence> PlannedExpences { get; protected set; }
         public DateTime CreatedAt { get; protected set; }
         public DateTime UpdatedAt { get; protected set; }
         
