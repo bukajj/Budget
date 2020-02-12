@@ -10,6 +10,5 @@ namespace Budget.Core.Domain
         decimal Bill { get; }
         DateTime CreatedAt { get; }
         DateTime TransactionDateTime { get; }
-        Guid TypeId { get; }
     }
 }

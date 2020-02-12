@@ -32,6 +32,7 @@
         <e p="Domain" t="Include">
           <e p="CurrentAccount.cs" t="Include" />
           <e p="Expence.cs" t="Include" />
+          <e p="ExpenceType.cs" t="Include" />
           <e p="Income.cs" t="Include" />
           <e p="IncomeType.cs" t="Include" />
           <e p="IPlannedTransaction.cs" t="Include" />
@@ -48,12 +49,18 @@
             </e>
           </e>
         </e>
-        <e p="Repositories" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
+        </e>
       </e>
       <e p="Budget.Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Budget.Infrastructure.csproj" t="IncludeRecursive" />
         <e p="Class1.cs" t="Include" />
+        <e p="DTO" t="Include">
+          <e p="UserDto.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
@@ -61,6 +68,10 @@
             </e>
           </e>
         </e>
+        <e p="Repositories" t="Include">
+          <e p="InMemoryUserRepository.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include" />
       </e>
       <e p="Budget.Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
