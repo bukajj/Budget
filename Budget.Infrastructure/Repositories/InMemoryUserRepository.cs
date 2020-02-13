@@ -10,7 +10,15 @@ namespace Budget.Infrastructure.Repositories
 {
     public class InMemoryUserRepository : IUserRepository
     {
-        private static ISet<User> _users = new HashSet<User>();
+        private static ISet<User> _users = new HashSet<User>
+        {
+            new User(Guid.NewGuid(), "user1@email.com", "secret", "salt",
+                "Kuba", "J"),
+            new User(Guid.NewGuid(), "user2@email.com", "secret", "salt",
+                "Marek", "K"),
+            new User(Guid.NewGuid(), "user3@email.com", "secret", "salt",
+                "Darek", "L"),
+        };
 
         public async Task<User> GetAsync(Guid id)
             => await Task.FromResult(_users.SingleOrDefault(user => user.Id == id));

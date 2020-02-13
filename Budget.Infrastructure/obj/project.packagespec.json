@@ -1,15 +1,11 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
+    "projectUniqueName": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
     "projectName": "Budget.Infrastructure",
-    "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
-    "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\obj\\",
+    "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
+    "outputPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "E:\\Microsoft\\Xamarin\\NuGet",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netstandard2.0"
     ],
@@ -20,8 +16,8 @@
     "frameworks": {
       "netstandard2.0": {
         "projectReferences": {
-          "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
-            "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj"
+          "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
+            "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj"
           }
         }
       }
