@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Budget.Core.Repositories;
+using Budget.Infrastructure.Mappers;
 using Budget.Infrastructure.Repositories;
 using Budget.Infrastructure.Services;
 using Microsoft.AspNetCore.Builder;
@@ -28,8 +29,10 @@ namespace Budget.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, InMemoryUserRepository>();
+            services.AddSingleton(AutoMapperConfig.Initialize());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
