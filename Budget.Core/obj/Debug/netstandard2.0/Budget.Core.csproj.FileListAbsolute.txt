@@ -6,3 +6,11 @@ C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\obj\Debug\netstan
 C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\obj\Debug\netstandard2.0\Budget.Core.AssemblyInfo.cs
 C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\obj\Debug\netstandard2.0\Budget.Core.dll
 C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\obj\Debug\netstandard2.0\Budget.Core.pdb
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Core\bin\Debug\netstandard2.0\Budget.Core.deps.json
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Core\bin\Debug\netstandard2.0\Budget.Core.dll
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Core\bin\Debug\netstandard2.0\Budget.Core.pdb
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Core\obj\Debug\netstandard2.0\Budget.Core.csprojAssemblyReference.cache
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Core\obj\Debug\netstandard2.0\Budget.Core.AssemblyInfoInputs.cache
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Core\obj\Debug\netstandard2.0\Budget.Core.AssemblyInfo.cs
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Core\obj\Debug\netstandard2.0\Budget.Core.dll
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Core\obj\Debug\netstandard2.0\Budget.Core.pdb

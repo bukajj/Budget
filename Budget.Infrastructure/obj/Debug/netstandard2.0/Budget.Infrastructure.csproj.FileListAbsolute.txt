@@ -9,3 +9,14 @@ C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Deb
 C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netstandard2.0\Budget.Infrastructure.csproj.CopyComplete
 C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netstandard2.0\Budget.Infrastructure.dll
 C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netstandard2.0\Budget.Infrastructure.pdb
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netstandard2.0\Budget.Infrastructure.deps.json
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netstandard2.0\Budget.Infrastructure.dll
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netstandard2.0\Budget.Infrastructure.pdb
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netstandard2.0\Budget.Core.dll
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netstandard2.0\Budget.Core.pdb
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netstandard2.0\Budget.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netstandard2.0\Budget.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netstandard2.0\Budget.Infrastructure.AssemblyInfo.cs
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netstandard2.0\Budget.Infrastructure.csproj.CopyComplete
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netstandard2.0\Budget.Infrastructure.dll
+C:\Users\Kuba\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netstandard2.0\Budget.Infrastructure.pdb

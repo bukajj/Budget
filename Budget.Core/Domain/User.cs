@@ -186,6 +186,5 @@ namespace Budget.Core.Domain
             => _incomeTypes.SingleOrDefault(type => type.Name == name);
 
         private ExpenceType GetExpenceType(string name)
-            => _expenceTypes.SingleOrDefault(type => type.Name == name);
-    }
+            => _expenceTypes.SingleOrDefault(type => type.Name == name); }
 }

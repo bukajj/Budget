@@ -1,11 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Tests.EndToEnd\\Budget.Tests.EndToEnd.csproj",
+    "projectUniqueName": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Tests.EndToEnd\\Budget.Tests.EndToEnd.csproj",
     "projectName": "Budget.Tests.EndToEnd",
-    "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Tests.EndToEnd\\Budget.Tests.EndToEnd.csproj",
-    "outputPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Tests.EndToEnd\\obj\\",
+    "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Tests.EndToEnd\\Budget.Tests.EndToEnd.csproj",
+    "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Tests.EndToEnd\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "E:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netstandard2.0"
     ],
