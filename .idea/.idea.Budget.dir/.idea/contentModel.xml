@@ -65,10 +65,10 @@
       <e p="Budget.Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Budget.Infrastructure.csproj" t="IncludeRecursive" />
-        <e p="Class1.cs" t="Include" />
         <e p="Commands" t="Include">
           <e p="CreateUser.cs" t="Include" />
           <e p="ICommand.cs" t="Include" />
+          <e p="ICommandDispatcher.cs" t="Include" />
           <e p="ICommandHandler.cs" t="Include" />
         </e>
         <e p="DTO" t="Include">

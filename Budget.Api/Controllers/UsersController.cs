@@ -10,10 +10,12 @@ namespace Budget.Api.Controllers
     public class UsersController : Controller
     {
         private readonly IUserService _userService;
+        private readonly ICommandDispatcher _commandDispatcher;
 
-        public UsersController(IUserService userService)
+        public UsersController(IUserService userService, ICommandDispatcher commandDispatcher)
         {
             _userService = userService;
+            _commandDispatcher = commandDispatcher;
         }
 
         [HttpGet("{email}")]
@@ -29,12 +31,11 @@ namespace Budget.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] CreateUser request)
+        public async Task<IActionResult> Post([FromBody] CreateUser command)
         {
-            await _userService.RegisterAsync(new Guid(),  request.Email, request.Firstname, request.Lastname,
-                request.Passsword);
+            await _commandDispatcher.DispatchAsync(command);
 
-            return Created($"users/{request.Email}", new Object());
+            return Created($"users/{command.Email}", new Object());
         }
     }
 }
