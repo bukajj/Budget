@@ -11,15 +11,22 @@
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netstandard2.0"
+      "netcoreapp3.1"
     ],
     "sources": {
       "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "netstandard2.0": {
-        "projectReferences": {}
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Api\\Budget.Api.csproj": {
+            "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Api\\Budget.Api.csproj"
+          },
+          "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj": {
+            "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -29,13 +36,35 @@
     }
   },
   "frameworks": {
-    "netstandard2.0": {
+    "netcoreapp3.1": {
       "dependencies": {
-        "NETStandard.Library": {
-          "suppressParent": "All",
+        "Autofac": {
           "target": "Package",
-          "version": "[2.0.3, )",
-          "autoReferenced": true
+          "version": "[5.1.2, )"
+        },
+        "FluentAssertions": {
+          "target": "Package",
+          "version": "[5.10.2, )"
+        },
+        "Microsoft.AspNetCore.TestHost": {
+          "target": "Package",
+          "version": "[3.1.2, )"
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.13.1, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.3, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.1, )"
         }
       },
       "imports": [
@@ -48,6 +77,14 @@
       ],
       "assetTargetFallback": true,
       "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
       "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
     }
   }

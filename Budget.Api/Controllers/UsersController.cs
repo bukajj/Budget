@@ -1,8 +1,9 @@
-﻿using System.Threading.Tasks;
-using Budget.Api.Commands.Users;
+﻿using System;
+using System.Threading.Tasks;
+using Budget.Infrastructure.Commands;
+using Budget.Infrastructure.DTO;
 using Budget.Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
-using Budget.Infrastructure.DTO;
 
 namespace Budget.Api.Controllers
 {
@@ -27,11 +28,13 @@ namespace Budget.Api.Controllers
             return Json(user);
         }
 
-        [HttpPost("")]
-        public async Task Post([FromBody] CreateUser request)
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] CreateUser request)
         {
-            await _userService.RegisterAsync(request.Id, request.Email, request.Firstname, request.Lastname,
-                request.Password);
+            await _userService.RegisterAsync(new Guid(),  request.Email, request.Firstname, request.Lastname,
+                request.Passsword);
+
+            return Created($"users/{request.Email}", new Object());
         }
     }
 }

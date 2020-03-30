@@ -1,0 +1,8 @@
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\bin\Debug\netcoreapp3.1\Budget.Core.deps.json
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\bin\Debug\netcoreapp3.1\Budget.Core.dll
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\bin\Debug\netcoreapp3.1\Budget.Core.pdb
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\obj\Debug\netcoreapp3.1\Budget.Core.csprojAssemblyReference.cache
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\obj\Debug\netcoreapp3.1\Budget.Core.AssemblyInfoInputs.cache
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\obj\Debug\netcoreapp3.1\Budget.Core.AssemblyInfo.cs
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\obj\Debug\netcoreapp3.1\Budget.Core.dll
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Core\obj\Debug\netcoreapp3.1\Budget.Core.pdb
