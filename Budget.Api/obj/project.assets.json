@@ -1060,7 +1060,7 @@
       },
       "Budget.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.2.0"
         },
@@ -1073,7 +1073,7 @@
       },
       "Budget.Infrastructure/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AutoMapper": "9.0.0",
           "Budget.Core": "1.0.0"

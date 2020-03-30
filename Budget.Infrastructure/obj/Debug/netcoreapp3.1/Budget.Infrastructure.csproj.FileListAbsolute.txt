@@ -1,0 +1,11 @@
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netcoreapp3.1\Budget.Infrastructure.deps.json
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netcoreapp3.1\Budget.Infrastructure.dll
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netcoreapp3.1\Budget.Infrastructure.pdb
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netcoreapp3.1\Budget.Core.dll
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\bin\Debug\netcoreapp3.1\Budget.Core.pdb
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netcoreapp3.1\Budget.Infrastructure.csprojAssemblyReference.cache
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netcoreapp3.1\Budget.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netcoreapp3.1\Budget.Infrastructure.AssemblyInfo.cs
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netcoreapp3.1\Budget.Infrastructure.csproj.CopyComplete
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netcoreapp3.1\Budget.Infrastructure.dll
+C:\Users\jakub.jadwiszczak\Documents\GitHub\Budget\Budget.Infrastructure\obj\Debug\netcoreapp3.1\Budget.Infrastructure.pdb
