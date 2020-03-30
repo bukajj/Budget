@@ -1,11 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
+    "projectUniqueName": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
     "projectName": "Budget.Infrastructure",
-    "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
-    "outputPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\obj\\",
+    "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
+    "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "E:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
@@ -16,8 +20,8 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
-            "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj"
+          "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
+            "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj"
           }
         }
       }
@@ -34,6 +38,10 @@
         "AutoMapper": {
           "target": "Package",
           "version": "[9.0.0, )"
+        },
+        "Autofac": {
+          "target": "Package",
+          "version": "[5.1.2, )"
         }
       },
       "imports": [

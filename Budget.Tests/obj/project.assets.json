@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Autofac/5.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        }
+      },
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -2567,6 +2576,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AutoMapper": "9.0.0",
+          "Autofac": "5.1.2",
           "Budget.Core": "1.0.0"
         },
         "compile": {
@@ -2579,6 +2589,27 @@
     }
   },
   "libraries": {
+    "Autofac/5.1.2": {
+      "sha512": "iGEx5Cm6Uor6/bZkgCHHjJO8cEQvDSOxgzNmHGJgGOnLDCe0b8NpOlhotsqx8dFvBDCsEX/V3YGRR30sRQLsxw==",
+      "type": "package",
+      "path": "autofac/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.5.1.2.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net461/Autofac.dll",
+        "lib/net461/Autofac.pdb",
+        "lib/net461/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "AutoMapper/9.0.0": {
       "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
       "type": "package",
@@ -8002,6 +8033,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Autofac >= 5.1.2",
       "Budget.Core >= 1.0.0",
       "Budget.Infrastructure >= 1.0.0",
       "FluentAssertions >= 5.10.2",
@@ -8012,20 +8044,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jakub.jadwiszczak\\.nuget\\packages\\": {}
+    "C:\\Users\\Kuba\\.nuget\\packages\\": {},
+    "E:\\Microsoft\\Xamarin\\NuGet": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Tests\\Budget.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Tests\\Budget.Tests.csproj",
       "projectName": "Budget.Tests",
-      "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Tests\\Budget.Tests.csproj",
-      "packagesPath": "C:\\Users\\jakub.jadwiszczak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Tests\\obj\\",
+      "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Tests\\Budget.Tests.csproj",
+      "packagesPath": "C:\\Users\\Kuba\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Microsoft\\Xamarin\\NuGet",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jakub.jadwiszczak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Kuba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8037,11 +8076,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
-              "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj"
+            "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
+              "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj"
             },
-            "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj"
+            "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj"
             }
           }
         }
@@ -8055,6 +8094,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[5.1.2, )"
+          },
           "FluentAssertions": {
             "target": "Package",
             "version": "[5.10.2, )"

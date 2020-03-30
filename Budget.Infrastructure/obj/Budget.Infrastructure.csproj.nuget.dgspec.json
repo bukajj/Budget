@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj": {}
+    "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
+    "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj",
         "projectName": "Budget.Core",
-        "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj",
-        "packagesPath": "C:\\Users\\jakub.jadwiszczak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\obj\\",
+        "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj",
+        "packagesPath": "C:\\Users\\Kuba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jakub.jadwiszczak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Kuba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -62,18 +67,23 @@
         }
       }
     },
-    "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj": {
+    "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
         "projectName": "Budget.Infrastructure",
-        "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\jakub.jadwiszczak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\Budget.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Kuba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jakub.jadwiszczak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Kuba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -85,8 +95,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
-                "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj"
+              "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj": {
+                "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj"
               }
             }
           }
@@ -103,6 +113,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.1.2, )"
             }
           },
           "imports": [

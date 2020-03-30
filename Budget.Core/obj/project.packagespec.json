@@ -1,11 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj",
+    "projectUniqueName": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj",
     "projectName": "Budget.Core",
-    "projectPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj",
-    "outputPath": "C:\\Users\\jakub.jadwiszczak\\Documents\\GitHub\\Budget\\Budget.Core\\obj\\",
+    "projectPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\Budget.Core.csproj",
+    "outputPath": "C:\\Users\\Kuba\\Documents\\GitHub\\Budget\\Budget.Core\\obj\\",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "E:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
